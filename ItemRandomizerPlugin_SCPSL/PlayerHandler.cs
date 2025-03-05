@@ -3,11 +3,8 @@ using Exiled.API.Features;
 using Exiled.API.Features.Items;
 using Exiled.Events.EventArgs.Player;
 using Exiled.Events.EventArgs.Server;
-using InventorySystem;
 using ItemRandomizerPlugin_SCPSL.RoomPoints;
 using MEC;
-using PluginAPI.Core.Zones.Light;
-using PluginAPI.Events;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -27,7 +24,7 @@ namespace ItemRandomizerPlugin {
                 var randomItemType = allowedItems[Random.Next(allowedItems.Count)];
 
                 if (ev.Item?.Base != null) {
-                    ev.Player.Inventory.ServerRemoveItem(ev.Item.Base.ItemSerial, ev.Item.Base.PickupDropModel);
+                    ev.Player.RemoveItem(ev.Item.Base.ItemSerial, ev.Item.Base.PickupDropModel);
                     ev.Player.AddItem(randomItemType);
                     Log.Info($"Item {randomItemType} added");
                 }
@@ -38,7 +35,7 @@ namespace ItemRandomizerPlugin {
 
         public void CoinSpawn() {
             foreach (var player in Player.List) {
-                player.Inventory.ServerAddItem(ItemType.Coin);
+                player.AddItem(ItemType.Coin);
             }
         }
 
@@ -140,7 +137,6 @@ namespace ItemRandomizerPlugin {
         RoomType.LczPlants,
         RoomType.LczToilets,
         RoomType.LczAirlock,
-        RoomType.Lcz173,
         RoomType.LczClassDSpawn,
         RoomType.LczCheckpointB,
         RoomType.LczGlassBox,

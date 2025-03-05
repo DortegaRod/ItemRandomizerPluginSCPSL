@@ -42,442 +42,461 @@
   <ItemGroup>
     <Reference Include="0Harmony, Version=2.2.2.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\OneDrive\Escritorio\SCP Plugin DEV\EXILED\Plugins\dependencies\0Harmony.dll</HintPath>
-    </Reference>
-    <Reference Include="Assembly-CSharp">
-      <HintPath>..\..\..\..\OneDrive\Escritorio\SCP Plugin DEV\Dev\Assembly-CSharp.dll</HintPath>
+      <HintPath>..\..\SCP-3114_Rework\SCP-3114_Rework\bin\Debug\0Harmony.dll</HintPath>
     </Reference>
     <Reference Include="Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\OneDrive\Escritorio\SCP Plugin DEV\Dev\Assembly-CSharp-firstpass.dll</HintPath>
+      <HintPath>..\..\SCP-3114_Rework\SCP-3114_Rework\bin\Debug\Assembly-CSharp-firstpass.dll</HintPath>
     </Reference>
     <Reference Include="Assembly-CSharp-Publicized, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\OneDrive\Escritorio\SCP Plugin DEV\Dev\Assembly-CSharp-Publicized.dll</HintPath>
+      <HintPath>..\..\SCP-3114_Rework\SCP-3114_Rework\bin\Debug\Assembly-CSharp-Publicized.dll</HintPath>
     </Reference>
     <Reference Include="BouncyCastle.Cryptography, Version=2.0.0.0, Culture=neutral, PublicKeyToken=072edcf4a5328938, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\OneDrive\Escritorio\SCP Plugin DEV\Dev\BouncyCastle.Cryptography.dll</HintPath>
+      <HintPath>..\..\SCP-3114_Rework\SCP-3114_Rework\bin\Debug\BouncyCastle.Cryptography.dll</HintPath>
     </Reference>
     <Reference Include="Caress, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\OneDrive\Escritorio\SCP Plugin DEV\Dev\Caress.dll</HintPath>
+      <HintPath>..\..\SCP-3114_Rework\SCP-3114_Rework\bin\Debug\Caress.dll</HintPath>
     </Reference>
     <Reference Include="CommandSystem.Core, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\OneDrive\Escritorio\SCP Plugin DEV\Dev\CommandSystem.Core.dll</HintPath>
+      <HintPath>..\..\SCP-3114_Rework\SCP-3114_Rework\bin\Debug\CommandSystem.Core.dll</HintPath>
     </Reference>
-    <Reference Include="DnsClient">
-      <HintPath>..\..\..\..\OneDrive\Escritorio\SCP Plugin DEV\Dev\DnsClient.dll</HintPath>
-    </Reference>
-    <Reference Include="Exiled.API, Version=9.0.0.0, Culture=neutral, processorArchitecture=AMD64">
+    <Reference Include="DnsClient, Version=1.0.1.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\Downloads\Exiled.API.dll</HintPath>
+      <HintPath>..\..\SCP-3114_Rework\SCP-3114_Rework\bin\Debug\DnsClient.dll</HintPath>
     </Reference>
-    <Reference Include="Exiled.CreditTags, Version=9.0.0.0, Culture=neutral, processorArchitecture=AMD64">
+    <Reference Include="Exiled.API, Version=9.1.1.0, Culture=neutral, processorArchitecture=AMD64">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\OneDrive\Escritorio\SCP Plugin DEV\EXILED\Plugins\Exiled.CreditTags.dll</HintPath>
+      <HintPath>..\..\SCP-3114_Rework\SCP-3114_Rework\bin\Debug\Exiled.API.dll</HintPath>
     </Reference>
-    <Reference Include="Exiled.CustomModules, Version=9.0.0.0, Culture=neutral, processorArchitecture=AMD64">
+    <Reference Include="Exiled.CreditTags, Version=9.1.1.0, Culture=neutral, processorArchitecture=AMD64">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\OneDrive\Escritorio\SCP Plugin DEV\EXILED\Plugins\Exiled.CustomModules.dll</HintPath>
+      <HintPath>..\..\SCP-3114_Rework\SCP-3114_Rework\bin\Debug\Exiled.CreditTags.dll</HintPath>
     </Reference>
-    <Reference Include="Exiled.Events, Version=9.0.0.0, Culture=neutral, processorArchitecture=AMD64">
+    <Reference Include="Exiled.CustomItems, Version=9.1.1.0, Culture=neutral, processorArchitecture=AMD64">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\OneDrive\Escritorio\SCP Plugin DEV\EXILED\Plugins\Exiled.Events.dll</HintPath>
+      <HintPath>..\..\SCP-3114_Rework\SCP-3114_Rework\bin\Debug\Exiled.CustomItems.dll</HintPath>
     </Reference>
-    <Reference Include="Exiled.Loader, Version=9.0.0.0, Culture=neutral, processorArchitecture=AMD64">
+    <Reference Include="Exiled.CustomRoles, Version=9.1.1.0, Culture=neutral, processorArchitecture=AMD64">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\Downloads\Exiled.Loader.dll</HintPath>
+      <HintPath>..\..\SCP-3114_Rework\SCP-3114_Rework\bin\Debug\Exiled.CustomRoles.dll</HintPath>
     </Reference>
-    <Reference Include="Exiled.Permissions, Version=9.0.0.0, Culture=neutral, processorArchitecture=AMD64">
+    <Reference Include="Exiled.Events, Version=9.1.1.0, Culture=neutral, processorArchitecture=AMD64">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\OneDrive\Escritorio\SCP Plugin DEV\EXILED\Plugins\Exiled.Permissions.dll</HintPath>
+      <HintPath>..\..\SCP-3114_Rework\SCP-3114_Rework\bin\Debug\Exiled.Events.dll</HintPath>
     </Reference>
-    <Reference Include="Facepunch.Steamworks.Win64">
-      <HintPath>..\..\..\..\OneDrive\Escritorio\SCP Plugin DEV\Dev\Facepunch.Steamworks.Win64.dll</HintPath>
+    <Reference Include="Exiled.Loader, Version=9.1.1.0, Culture=neutral, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\SCP-3114_Rework\SCP-3114_Rework\bin\Debug\Exiled.Loader.dll</HintPath>
     </Reference>
-    <Reference Include="Mirror">
-      <HintPath>..\..\..\..\OneDrive\Escritorio\SCP Plugin DEV\Dev\Mirror.dll</HintPath>
+    <Reference Include="Exiled.Permissions, Version=9.1.1.0, Culture=neutral, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\SCP-3114_Rework\SCP-3114_Rework\bin\Debug\Exiled.Permissions.dll</HintPath>
+    </Reference>
+    <Reference Include="Facepunch.Steamworks.Win64, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\SCP-3114_Rework\SCP-3114_Rework\bin\Debug\Facepunch.Steamworks.Win64.dll</HintPath>
     </Reference>
     <Reference Include="Mirror-Publicized, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\OneDrive\Escritorio\SCP Plugin DEV\Dev\Mirror-Publicized.dll</HintPath>
+      <HintPath>..\..\SCP-3114_Rework\SCP-3114_Rework\bin\Debug\Mirror-Publicized.dll</HintPath>
     </Reference>
     <Reference Include="Mirror.Components, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\OneDrive\Escritorio\SCP Plugin DEV\Dev\Mirror.Components.dll</HintPath>
+      <HintPath>..\..\SCP-3114_Rework\SCP-3114_Rework\bin\Debug\Mirror.Components.dll</HintPath>
     </Reference>
     <Reference Include="Mono.Cecil, Version=0.11.5.0, Culture=neutral, PublicKeyToken=50cebf1cceb9d05e, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\OneDrive\Escritorio\SCP Plugin DEV\Dev\Mono.Cecil.dll</HintPath>
+      <HintPath>..\..\SCP-3114_Rework\SCP-3114_Rework\bin\Debug\Mono.Cecil.dll</HintPath>
     </Reference>
     <Reference Include="Mono.Cecil.Mdb, Version=0.11.5.0, Culture=neutral, PublicKeyToken=50cebf1cceb9d05e, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\OneDrive\Escritorio\SCP Plugin DEV\Dev\Mono.Cecil.Mdb.dll</HintPath>
+      <HintPath>..\..\SCP-3114_Rework\SCP-3114_Rework\bin\Debug\Mono.Cecil.Mdb.dll</HintPath>
     </Reference>
     <Reference Include="Mono.Cecil.Pdb, Version=0.11.5.0, Culture=neutral, PublicKeyToken=50cebf1cceb9d05e, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\OneDrive\Escritorio\SCP Plugin DEV\Dev\Mono.Cecil.Pdb.dll</HintPath>
+      <HintPath>..\..\SCP-3114_Rework\SCP-3114_Rework\bin\Debug\Mono.Cecil.Pdb.dll</HintPath>
     </Reference>
     <Reference Include="Mono.Cecil.Rocks, Version=0.11.5.0, Culture=neutral, PublicKeyToken=50cebf1cceb9d05e, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\OneDrive\Escritorio\SCP Plugin DEV\Dev\Mono.Cecil.Rocks.dll</HintPath>
+      <HintPath>..\..\SCP-3114_Rework\SCP-3114_Rework\bin\Debug\Mono.Cecil.Rocks.dll</HintPath>
     </Reference>
     <Reference Include="Mono.Posix, Version=4.0.0.0, Culture=neutral, PublicKeyToken=0738eb9f132ed756, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\OneDrive\Escritorio\SCP Plugin DEV\SCP Secret Laboratory\PluginAPI\plugins\global\dependencies\Mono.Posix.dll</HintPath>
+      <HintPath>..\..\SCP-3114_Rework\SCP-3114_Rework\bin\Debug\Mono.Posix.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Security">
+      <HintPath>..\..\SCP-3114_Rework\SCP-3114_Rework\bin\Debug\Mono.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="netstandard">
+      <HintPath>..\..\SCP-3114_Rework\SCP-3114_Rework\bin\Debug\netstandard.dll</HintPath>
+    </Reference>
+    <Reference Include="NorthwoodLib, Version=1.3.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\SCP-3114_Rework\SCP-3114_Rework\bin\Debug\NorthwoodLib.dll</HintPath>
     </Reference>
     <Reference Include="PluginAPI, Version=13.1.3.0, Culture=neutral, processorArchitecture=AMD64">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\OneDrive\Escritorio\SCP Plugin DEV\Dev\PluginAPI.dll</HintPath>
+      <HintPath>..\..\SCP-3114_Rework\SCP-3114_Rework\bin\Debug\PluginAPI.dll</HintPath>
     </Reference>
-    <Reference Include="SemanticVersioning">
-      <HintPath>..\..\..\..\OneDrive\Escritorio\SCP Plugin DEV\SCP Secret Laboratory\PluginAPI\plugins\global\dependencies\SemanticVersioning.dll</HintPath>
+    <Reference Include="Pooling, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\SCP-3114_Rework\SCP-3114_Rework\bin\Debug\Pooling.dll</HintPath>
+    </Reference>
+    <Reference Include="SCP-3114_Rework">
+      <HintPath>..\..\SCP-3114_Rework\SCP-3114_Rework\bin\Debug\SCP-3114_Rework.dll</HintPath>
+    </Reference>
+    <Reference Include="SemanticVersioning, Version=2.0.2.0, Culture=neutral, PublicKeyToken=a89bb7dc6f7a145c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\SCP-3114_Rework\SCP-3114_Rework\bin\Debug\SemanticVersioning.dll</HintPath>
     </Reference>
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="Unity.Burst, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\OneDrive\Escritorio\SCP Plugin DEV\Dev\Unity.Burst.dll</HintPath>
+      <HintPath>..\..\SCP-3114_Rework\SCP-3114_Rework\bin\Debug\Unity.Burst.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Unsafe, Version=4.0.5.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\OneDrive\Escritorio\SCP Plugin DEV\Dev\Unity.Burst.Unsafe.dll</HintPath>
+      <HintPath>..\..\SCP-3114_Rework\SCP-3114_Rework\bin\Debug\Unity.Burst.Unsafe.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Mathematics, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\OneDrive\Escritorio\SCP Plugin DEV\Dev\Unity.Mathematics.dll</HintPath>
+      <HintPath>..\..\SCP-3114_Rework\SCP-3114_Rework\bin\Debug\Unity.Mathematics.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ProBuilder, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\OneDrive\Escritorio\SCP Plugin DEV\Dev\Unity.ProBuilder.dll</HintPath>
+      <HintPath>..\..\SCP-3114_Rework\SCP-3114_Rework\bin\Debug\Unity.ProBuilder.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ProBuilder.Csg, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\OneDrive\Escritorio\SCP Plugin DEV\Dev\Unity.ProBuilder.Csg.dll</HintPath>
+      <HintPath>..\..\SCP-3114_Rework\SCP-3114_Rework\bin\Debug\Unity.ProBuilder.Csg.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ProBuilder.KdTree, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\OneDrive\Escritorio\SCP Plugin DEV\Dev\Unity.ProBuilder.KdTree.dll</HintPath>
+      <HintPath>..\..\SCP-3114_Rework\SCP-3114_Rework\bin\Debug\Unity.ProBuilder.KdTree.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ProBuilder.Poly2Tri, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\OneDrive\Escritorio\SCP Plugin DEV\Dev\Unity.ProBuilder.Poly2Tri.dll</HintPath>
+      <HintPath>..\..\SCP-3114_Rework\SCP-3114_Rework\bin\Debug\Unity.ProBuilder.Poly2Tri.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ProBuilder.Stl, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\OneDrive\Escritorio\SCP Plugin DEV\Dev\Unity.ProBuilder.Stl.dll</HintPath>
+      <HintPath>..\..\SCP-3114_Rework\SCP-3114_Rework\bin\Debug\Unity.ProBuilder.Stl.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Core.Runtime, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\OneDrive\Escritorio\SCP Plugin DEV\Dev\Unity.RenderPipelines.Core.Runtime.dll</HintPath>
+      <HintPath>..\..\SCP-3114_Rework\SCP-3114_Rework\bin\Debug\Unity.RenderPipelines.Core.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Core.ShaderLibrary, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\OneDrive\Escritorio\SCP Plugin DEV\Dev\Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
+      <HintPath>..\..\SCP-3114_Rework\SCP-3114_Rework\bin\Debug\Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.HighDefinition.Config.Runtime, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\OneDrive\Escritorio\SCP Plugin DEV\Dev\Unity.RenderPipelines.HighDefinition.Config.Runtime.dll</HintPath>
+      <HintPath>..\..\SCP-3114_Rework\SCP-3114_Rework\bin\Debug\Unity.RenderPipelines.HighDefinition.Config.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.HighDefinition.Runtime, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\OneDrive\Escritorio\SCP Plugin DEV\Dev\Unity.RenderPipelines.HighDefinition.Runtime.dll</HintPath>
+      <HintPath>..\..\SCP-3114_Rework\SCP-3114_Rework\bin\Debug\Unity.RenderPipelines.HighDefinition.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\OneDrive\Escritorio\SCP Plugin DEV\Dev\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
+      <HintPath>..\..\SCP-3114_Rework\SCP-3114_Rework\bin\Debug\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\OneDrive\Escritorio\SCP Plugin DEV\Dev\Unity.TextMeshPro.dll</HintPath>
+      <HintPath>..\..\SCP-3114_Rework\SCP-3114_Rework\bin\Debug\Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\OneDrive\Escritorio\SCP Plugin DEV\Dev\Unity.Timeline.dll</HintPath>
+      <HintPath>..\..\SCP-3114_Rework\SCP-3114_Rework\bin\Debug\Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualEffectGraph.Runtime, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\OneDrive\Escritorio\SCP Plugin DEV\Dev\Unity.VisualEffectGraph.Runtime.dll</HintPath>
+      <HintPath>..\..\SCP-3114_Rework\SCP-3114_Rework\bin\Debug\Unity.VisualEffectGraph.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\OneDrive\Escritorio\SCP Plugin DEV\Dev\UnityEngine.dll</HintPath>
+      <HintPath>..\..\SCP-3114_Rework\SCP-3114_Rework\bin\Debug\UnityEngine.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AccessibilityModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\OneDrive\Escritorio\SCP Plugin DEV\Dev\UnityEngine.AccessibilityModule.dll</HintPath>
+      <HintPath>..\..\SCP-3114_Rework\SCP-3114_Rework\bin\Debug\UnityEngine.AccessibilityModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\OneDrive\Escritorio\SCP Plugin DEV\Dev\UnityEngine.AIModule.dll</HintPath>
+      <HintPath>..\..\SCP-3114_Rework\SCP-3114_Rework\bin\Debug\UnityEngine.AIModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AndroidJNIModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\OneDrive\Escritorio\SCP Plugin DEV\Dev\UnityEngine.AndroidJNIModule.dll</HintPath>
+      <HintPath>..\..\SCP-3114_Rework\SCP-3114_Rework\bin\Debug\UnityEngine.AndroidJNIModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AnimationModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\OneDrive\Escritorio\SCP Plugin DEV\Dev\UnityEngine.AnimationModule.dll</HintPath>
+      <HintPath>..\..\SCP-3114_Rework\SCP-3114_Rework\bin\Debug\UnityEngine.AnimationModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.ARModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\OneDrive\Escritorio\SCP Plugin DEV\Dev\UnityEngine.ARModule.dll</HintPath>
+      <HintPath>..\..\SCP-3114_Rework\SCP-3114_Rework\bin\Debug\UnityEngine.ARModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AssetBundleModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\OneDrive\Escritorio\SCP Plugin DEV\Dev\UnityEngine.AssetBundleModule.dll</HintPath>
+      <HintPath>..\..\SCP-3114_Rework\SCP-3114_Rework\bin\Debug\UnityEngine.AssetBundleModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\OneDrive\Escritorio\SCP Plugin DEV\Dev\UnityEngine.AudioModule.dll</HintPath>
+      <HintPath>..\..\SCP-3114_Rework\SCP-3114_Rework\bin\Debug\UnityEngine.AudioModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.ClothModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\OneDrive\Escritorio\SCP Plugin DEV\Dev\UnityEngine.ClothModule.dll</HintPath>
+      <HintPath>..\..\SCP-3114_Rework\SCP-3114_Rework\bin\Debug\UnityEngine.ClothModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.ClusterInputModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\OneDrive\Escritorio\SCP Plugin DEV\Dev\UnityEngine.ClusterInputModule.dll</HintPath>
+      <HintPath>..\..\SCP-3114_Rework\SCP-3114_Rework\bin\Debug\UnityEngine.ClusterInputModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.ClusterRendererModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\OneDrive\Escritorio\SCP Plugin DEV\Dev\UnityEngine.ClusterRendererModule.dll</HintPath>
+      <HintPath>..\..\SCP-3114_Rework\SCP-3114_Rework\bin\Debug\UnityEngine.ClusterRendererModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\OneDrive\Escritorio\SCP Plugin DEV\Dev\UnityEngine.CoreModule.dll</HintPath>
+      <HintPath>..\..\SCP-3114_Rework\SCP-3114_Rework\bin\Debug\UnityEngine.CoreModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.CrashReportingModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\OneDrive\Escritorio\SCP Plugin DEV\Dev\UnityEngine.CrashReportingModule.dll</HintPath>
+      <HintPath>..\..\SCP-3114_Rework\SCP-3114_Rework\bin\Debug\UnityEngine.CrashReportingModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.DirectorModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\OneDrive\Escritorio\SCP Plugin DEV\Dev\UnityEngine.DirectorModule.dll</HintPath>
+      <HintPath>..\..\SCP-3114_Rework\SCP-3114_Rework\bin\Debug\UnityEngine.DirectorModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.DSPGraphModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\OneDrive\Escritorio\SCP Plugin DEV\Dev\UnityEngine.DSPGraphModule.dll</HintPath>
+      <HintPath>..\..\SCP-3114_Rework\SCP-3114_Rework\bin\Debug\UnityEngine.DSPGraphModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.GameCenterModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\OneDrive\Escritorio\SCP Plugin DEV\Dev\UnityEngine.GameCenterModule.dll</HintPath>
+      <HintPath>..\..\SCP-3114_Rework\SCP-3114_Rework\bin\Debug\UnityEngine.GameCenterModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.GIModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\OneDrive\Escritorio\SCP Plugin DEV\Dev\UnityEngine.GIModule.dll</HintPath>
+      <HintPath>..\..\SCP-3114_Rework\SCP-3114_Rework\bin\Debug\UnityEngine.GIModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.GridModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\OneDrive\Escritorio\SCP Plugin DEV\Dev\UnityEngine.GridModule.dll</HintPath>
+      <HintPath>..\..\SCP-3114_Rework\SCP-3114_Rework\bin\Debug\UnityEngine.GridModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.HotReloadModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\OneDrive\Escritorio\SCP Plugin DEV\Dev\UnityEngine.HotReloadModule.dll</HintPath>
+      <HintPath>..\..\SCP-3114_Rework\SCP-3114_Rework\bin\Debug\UnityEngine.HotReloadModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.ImageConversionModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\OneDrive\Escritorio\SCP Plugin DEV\Dev\UnityEngine.ImageConversionModule.dll</HintPath>
+      <HintPath>..\..\SCP-3114_Rework\SCP-3114_Rework\bin\Debug\UnityEngine.ImageConversionModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.IMGUIModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\OneDrive\Escritorio\SCP Plugin DEV\Dev\UnityEngine.IMGUIModule.dll</HintPath>
+      <HintPath>..\..\SCP-3114_Rework\SCP-3114_Rework\bin\Debug\UnityEngine.IMGUIModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.InputLegacyModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\OneDrive\Escritorio\SCP Plugin DEV\Dev\UnityEngine.InputLegacyModule.dll</HintPath>
+      <HintPath>..\..\SCP-3114_Rework\SCP-3114_Rework\bin\Debug\UnityEngine.InputLegacyModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.InputModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\OneDrive\Escritorio\SCP Plugin DEV\Dev\UnityEngine.InputModule.dll</HintPath>
+      <HintPath>..\..\SCP-3114_Rework\SCP-3114_Rework\bin\Debug\UnityEngine.InputModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.JSONSerializeModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\OneDrive\Escritorio\SCP Plugin DEV\Dev\UnityEngine.JSONSerializeModule.dll</HintPath>
+      <HintPath>..\..\SCP-3114_Rework\SCP-3114_Rework\bin\Debug\UnityEngine.JSONSerializeModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.LocalizationModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\OneDrive\Escritorio\SCP Plugin DEV\Dev\UnityEngine.LocalizationModule.dll</HintPath>
+      <HintPath>..\..\SCP-3114_Rework\SCP-3114_Rework\bin\Debug\UnityEngine.LocalizationModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.NVIDIAModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\OneDrive\Escritorio\SCP Plugin DEV\Dev\UnityEngine.NVIDIAModule.dll</HintPath>
+      <HintPath>..\..\SCP-3114_Rework\SCP-3114_Rework\bin\Debug\UnityEngine.NVIDIAModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.ParticleSystemModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\OneDrive\Escritorio\SCP Plugin DEV\Dev\UnityEngine.ParticleSystemModule.dll</HintPath>
+      <HintPath>..\..\SCP-3114_Rework\SCP-3114_Rework\bin\Debug\UnityEngine.ParticleSystemModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.PerformanceReportingModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\OneDrive\Escritorio\SCP Plugin DEV\Dev\UnityEngine.PerformanceReportingModule.dll</HintPath>
+      <HintPath>..\..\SCP-3114_Rework\SCP-3114_Rework\bin\Debug\UnityEngine.PerformanceReportingModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Physics2DModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\OneDrive\Escritorio\SCP Plugin DEV\Dev\UnityEngine.Physics2DModule.dll</HintPath>
+      <HintPath>..\..\SCP-3114_Rework\SCP-3114_Rework\bin\Debug\UnityEngine.Physics2DModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.PhysicsModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\OneDrive\Escritorio\SCP Plugin DEV\Dev\UnityEngine.PhysicsModule.dll</HintPath>
+      <HintPath>..\..\SCP-3114_Rework\SCP-3114_Rework\bin\Debug\UnityEngine.PhysicsModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.ProfilerModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\OneDrive\Escritorio\SCP Plugin DEV\Dev\UnityEngine.ProfilerModule.dll</HintPath>
+      <HintPath>..\..\SCP-3114_Rework\SCP-3114_Rework\bin\Debug\UnityEngine.ProfilerModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\OneDrive\Escritorio\SCP Plugin DEV\Dev\UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll</HintPath>
+      <HintPath>..\..\SCP-3114_Rework\SCP-3114_Rework\bin\Debug\UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.ScreenCaptureModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\OneDrive\Escritorio\SCP Plugin DEV\Dev\UnityEngine.ScreenCaptureModule.dll</HintPath>
+      <HintPath>..\..\SCP-3114_Rework\SCP-3114_Rework\bin\Debug\UnityEngine.ScreenCaptureModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.SharedInternalsModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\OneDrive\Escritorio\SCP Plugin DEV\Dev\UnityEngine.SharedInternalsModule.dll</HintPath>
+      <HintPath>..\..\SCP-3114_Rework\SCP-3114_Rework\bin\Debug\UnityEngine.SharedInternalsModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.SpriteMaskModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\OneDrive\Escritorio\SCP Plugin DEV\Dev\UnityEngine.SpriteMaskModule.dll</HintPath>
+      <HintPath>..\..\SCP-3114_Rework\SCP-3114_Rework\bin\Debug\UnityEngine.SpriteMaskModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.SpriteShapeModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\OneDrive\Escritorio\SCP Plugin DEV\Dev\UnityEngine.SpriteShapeModule.dll</HintPath>
+      <HintPath>..\..\SCP-3114_Rework\SCP-3114_Rework\bin\Debug\UnityEngine.SpriteShapeModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.StreamingModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\OneDrive\Escritorio\SCP Plugin DEV\Dev\UnityEngine.StreamingModule.dll</HintPath>
+      <HintPath>..\..\SCP-3114_Rework\SCP-3114_Rework\bin\Debug\UnityEngine.StreamingModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.SubstanceModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\OneDrive\Escritorio\SCP Plugin DEV\Dev\UnityEngine.SubstanceModule.dll</HintPath>
+      <HintPath>..\..\SCP-3114_Rework\SCP-3114_Rework\bin\Debug\UnityEngine.SubstanceModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.SubsystemsModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\OneDrive\Escritorio\SCP Plugin DEV\Dev\UnityEngine.SubsystemsModule.dll</HintPath>
+      <HintPath>..\..\SCP-3114_Rework\SCP-3114_Rework\bin\Debug\UnityEngine.SubsystemsModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.TerrainModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\OneDrive\Escritorio\SCP Plugin DEV\Dev\UnityEngine.TerrainModule.dll</HintPath>
+      <HintPath>..\..\SCP-3114_Rework\SCP-3114_Rework\bin\Debug\UnityEngine.TerrainModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.TerrainPhysicsModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\OneDrive\Escritorio\SCP Plugin DEV\Dev\UnityEngine.TerrainPhysicsModule.dll</HintPath>
+      <HintPath>..\..\SCP-3114_Rework\SCP-3114_Rework\bin\Debug\UnityEngine.TerrainPhysicsModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.TextCoreFontEngineModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\OneDrive\Escritorio\SCP Plugin DEV\Dev\UnityEngine.TextCoreFontEngineModule.dll</HintPath>
+      <HintPath>..\..\SCP-3114_Rework\SCP-3114_Rework\bin\Debug\UnityEngine.TextCoreFontEngineModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.TextCoreTextEngineModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\OneDrive\Escritorio\SCP Plugin DEV\Dev\UnityEngine.TextCoreTextEngineModule.dll</HintPath>
+      <HintPath>..\..\SCP-3114_Rework\SCP-3114_Rework\bin\Debug\UnityEngine.TextCoreTextEngineModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.TextRenderingModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\OneDrive\Escritorio\SCP Plugin DEV\Dev\UnityEngine.TextRenderingModule.dll</HintPath>
+      <HintPath>..\..\SCP-3114_Rework\SCP-3114_Rework\bin\Debug\UnityEngine.TextRenderingModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.TilemapModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\OneDrive\Escritorio\SCP Plugin DEV\Dev\UnityEngine.TilemapModule.dll</HintPath>
+      <HintPath>..\..\SCP-3114_Rework\SCP-3114_Rework\bin\Debug\UnityEngine.TilemapModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.TLSModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\OneDrive\Escritorio\SCP Plugin DEV\Dev\UnityEngine.TLSModule.dll</HintPath>
+      <HintPath>..\..\SCP-3114_Rework\SCP-3114_Rework\bin\Debug\UnityEngine.TLSModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\OneDrive\Escritorio\SCP Plugin DEV\Dev\UnityEngine.UI.dll</HintPath>
+      <HintPath>..\..\SCP-3114_Rework\SCP-3114_Rework\bin\Debug\UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UIElementsModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\OneDrive\Escritorio\SCP Plugin DEV\Dev\UnityEngine.UIElementsModule.dll</HintPath>
+      <HintPath>..\..\SCP-3114_Rework\SCP-3114_Rework\bin\Debug\UnityEngine.UIElementsModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UIElementsNativeModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\OneDrive\Escritorio\SCP Plugin DEV\Dev\UnityEngine.UIElementsNativeModule.dll</HintPath>
+      <HintPath>..\..\SCP-3114_Rework\SCP-3114_Rework\bin\Debug\UnityEngine.UIElementsNativeModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UIModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\OneDrive\Escritorio\SCP Plugin DEV\Dev\UnityEngine.UIModule.dll</HintPath>
+      <HintPath>..\..\SCP-3114_Rework\SCP-3114_Rework\bin\Debug\UnityEngine.UIModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UmbraModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\OneDrive\Escritorio\SCP Plugin DEV\Dev\UnityEngine.UmbraModule.dll</HintPath>
+      <HintPath>..\..\SCP-3114_Rework\SCP-3114_Rework\bin\Debug\UnityEngine.UmbraModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UNETModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\OneDrive\Escritorio\SCP Plugin DEV\Dev\UnityEngine.UNETModule.dll</HintPath>
+      <HintPath>..\..\SCP-3114_Rework\SCP-3114_Rework\bin\Debug\UnityEngine.UNETModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UnityAnalyticsCommonModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\OneDrive\Escritorio\SCP Plugin DEV\Dev\UnityEngine.UnityAnalyticsCommonModule.dll</HintPath>
+      <HintPath>..\..\SCP-3114_Rework\SCP-3114_Rework\bin\Debug\UnityEngine.UnityAnalyticsCommonModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UnityAnalyticsModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\OneDrive\Escritorio\SCP Plugin DEV\Dev\UnityEngine.UnityAnalyticsModule.dll</HintPath>
+      <HintPath>..\..\SCP-3114_Rework\SCP-3114_Rework\bin\Debug\UnityEngine.UnityAnalyticsModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UnityConnectModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\OneDrive\Escritorio\SCP Plugin DEV\Dev\UnityEngine.UnityConnectModule.dll</HintPath>
+      <HintPath>..\..\SCP-3114_Rework\SCP-3114_Rework\bin\Debug\UnityEngine.UnityConnectModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UnityCurlModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\OneDrive\Escritorio\SCP Plugin DEV\Dev\UnityEngine.UnityCurlModule.dll</HintPath>
+      <HintPath>..\..\SCP-3114_Rework\SCP-3114_Rework\bin\Debug\UnityEngine.UnityCurlModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UnityTestProtocolModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\OneDrive\Escritorio\SCP Plugin DEV\Dev\UnityEngine.UnityTestProtocolModule.dll</HintPath>
+      <HintPath>..\..\SCP-3114_Rework\SCP-3114_Rework\bin\Debug\UnityEngine.UnityTestProtocolModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UnityWebRequestAssetBundleModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\OneDrive\Escritorio\SCP Plugin DEV\Dev\UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
+      <HintPath>..\..\SCP-3114_Rework\SCP-3114_Rework\bin\Debug\UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UnityWebRequestAudioModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\OneDrive\Escritorio\SCP Plugin DEV\Dev\UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+      <HintPath>..\..\SCP-3114_Rework\SCP-3114_Rework\bin\Debug\UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UnityWebRequestModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\OneDrive\Escritorio\SCP Plugin DEV\Dev\UnityEngine.UnityWebRequestModule.dll</HintPath>
+      <HintPath>..\..\SCP-3114_Rework\SCP-3114_Rework\bin\Debug\UnityEngine.UnityWebRequestModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UnityWebRequestTextureModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\OneDrive\Escritorio\SCP Plugin DEV\Dev\UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+      <HintPath>..\..\SCP-3114_Rework\SCP-3114_Rework\bin\Debug\UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UnityWebRequestWWWModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\OneDrive\Escritorio\SCP Plugin DEV\Dev\UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+      <HintPath>..\..\SCP-3114_Rework\SCP-3114_Rework\bin\Debug\UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.VehiclesModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\OneDrive\Escritorio\SCP Plugin DEV\Dev\UnityEngine.VehiclesModule.dll</HintPath>
+      <HintPath>..\..\SCP-3114_Rework\SCP-3114_Rework\bin\Debug\UnityEngine.VehiclesModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.VFXModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\OneDrive\Escritorio\SCP Plugin DEV\Dev\UnityEngine.VFXModule.dll</HintPath>
+      <HintPath>..\..\SCP-3114_Rework\SCP-3114_Rework\bin\Debug\UnityEngine.VFXModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.VideoModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\OneDrive\Escritorio\SCP Plugin DEV\Dev\UnityEngine.VideoModule.dll</HintPath>
+      <HintPath>..\..\SCP-3114_Rework\SCP-3114_Rework\bin\Debug\UnityEngine.VideoModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.VirtualTexturingModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\OneDrive\Escritorio\SCP Plugin DEV\Dev\UnityEngine.VirtualTexturingModule.dll</HintPath>
+      <HintPath>..\..\SCP-3114_Rework\SCP-3114_Rework\bin\Debug\UnityEngine.VirtualTexturingModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.VRModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\OneDrive\Escritorio\SCP Plugin DEV\Dev\UnityEngine.VRModule.dll</HintPath>
+      <HintPath>..\..\SCP-3114_Rework\SCP-3114_Rework\bin\Debug\UnityEngine.VRModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.WindModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\OneDrive\Escritorio\SCP Plugin DEV\Dev\UnityEngine.WindModule.dll</HintPath>
+      <HintPath>..\..\SCP-3114_Rework\SCP-3114_Rework\bin\Debug\UnityEngine.WindModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.XRModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\OneDrive\Escritorio\SCP Plugin DEV\Dev\UnityEngine.XRModule.dll</HintPath>
+      <HintPath>..\..\SCP-3114_Rework\SCP-3114_Rework\bin\Debug\UnityEngine.XRModule.dll</HintPath>
     </Reference>
-    <Reference Include="YamlDotNet">
-      <HintPath>..\..\..\..\OneDrive\Escritorio\SCP Plugin DEV\SCP Secret Laboratory\PluginAPI\plugins\global\dependencies\YamlDotNet.dll</HintPath>
+    <Reference Include="YamlDotNet, Version=13.0.0.0, Culture=neutral, PublicKeyToken=ec19458f3c15af5e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\SCP-3114_Rework\SCP-3114_Rework\bin\Debug\YamlDotNet.dll</HintPath>
     </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
