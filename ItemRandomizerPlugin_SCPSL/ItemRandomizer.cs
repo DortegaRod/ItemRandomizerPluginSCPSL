@@ -21,7 +21,7 @@
             _playerHandler = new PlayerHandler();
             Player.DroppingItem += _playerHandler.OnItemDropped;
             Player.FlippingCoin += _playerHandler.OnFlip;
-            Server.RoundStarted += _playerHandler.CoinSpawn;
+            Player.Spawned += _playerHandler.OnSpawned;
             Server.RoundEnded += _playerHandler.ClearCoinList;
             Map.Decontaminating += OnDecontaminating;
             base.OnEnabled();
@@ -30,7 +30,7 @@
         public override void OnDisabled() {
             Player.DroppingItem -= _playerHandler.OnItemDropped;
             Player.FlippingCoin -= _playerHandler.OnFlip;
-            Server.RoundStarted -= _playerHandler.CoinSpawn;
+            Player.Spawned += _playerHandler.OnSpawned;
             Server.RoundEnded -= _playerHandler.ClearCoinList;
             Map.Decontaminating -= OnDecontaminating;
             _playerHandler = null;

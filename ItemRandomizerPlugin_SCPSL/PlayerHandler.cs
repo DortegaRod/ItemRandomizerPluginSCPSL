@@ -5,6 +5,8 @@ using Exiled.Events.EventArgs.Player;
 using Exiled.Events.EventArgs.Server;
 using ItemRandomizerPlugin_SCPSL.RoomPoints;
 using MEC;
+using PlayerRoles;
+using PluginAPI.Roles;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -16,6 +18,12 @@ namespace ItemRandomizerPlugin {
         private static readonly RoomType Scp173RoomType = RoomType.Lcz173;
         private static readonly Random Random = new Random();
         private static readonly Vector3 DropLocation = new Vector3(257.3519f, 13.14142f, 127.7134f);
+        private static readonly RoleTypeId[] SpawnElegibleRoles =
+    {
+        RoleTypeId.NtfPrivate,
+        RoleTypeId.NtfSpecialist
+        
+    };
         private static List<ItemType> allowedItems = AddAllowedItems();
         List<Item> usedCoins = new List<Item>();
 
@@ -33,9 +41,11 @@ namespace ItemRandomizerPlugin {
 
         
 
-        public void CoinSpawn() {
-            foreach (var player in Player.List) {
-                player.AddItem(ItemType.Coin);
+        public void OnSpawned(SpawnedEventArgs ev)
+        {
+            if (!SpawnElegibleRoles.Contains(ev.Player.Role))
+            {
+                ev.Player.AddItem(ItemType.Coin);
             }
         }
 
