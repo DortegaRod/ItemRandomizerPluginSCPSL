@@ -5,6 +5,8 @@
     using System;
     using Player = Exiled.Events.Handlers.Player;
     using Server = Exiled.Events.Handlers.Server;
+    using Map = Exiled.Events.Handlers.Map;
+    using Exiled.Events.EventArgs.Map;
 
     public class ItemRandomizer : Plugin<Config> {
         public PlayerHandler _playerHandler;
@@ -21,6 +23,7 @@
             Player.FlippingCoin += _playerHandler.OnFlip;
             Server.RoundStarted += _playerHandler.CoinSpawn;
             Server.RoundEnded += _playerHandler.ClearCoinList;
+            Map.Decontaminating += OnDecontaminating;
             base.OnEnabled();
         }
 
@@ -29,8 +32,14 @@
             Player.FlippingCoin -= _playerHandler.OnFlip;
             Server.RoundStarted -= _playerHandler.CoinSpawn;
             Server.RoundEnded -= _playerHandler.ClearCoinList;
+            Map.Decontaminating -= OnDecontaminating;
             _playerHandler = null;
             base.OnDisabled();
+        }
+
+        public void OnDecontaminating(DecontaminatingEventArgs ev)
+        {
+            Exiled.API.Features.Map.Broadcast(10, "COIN TP ENABLED IN ALL THE FACILITY");
         }
     }
 }

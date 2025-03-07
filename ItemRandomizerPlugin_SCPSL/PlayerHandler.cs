@@ -59,10 +59,10 @@ namespace ItemRandomizerPlugin {
                         usedCoins.Add(ev.Item);
                     });
 
-                } else if (ev.Player.CurrentRoom.Zone == ZoneType.HeavyContainment && Map.IsLczDecontaminated) {
+                } else if (ev.Player.CurrentRoom.Zone != ZoneType.LightContainment && Map.IsLczDecontaminated) {
                     RoomType tpRoom;
                     do {
-                        tpRoom = GetRandomHCZRoom();
+                        tpRoom = GetRandomNLCZRoom();
                     } while (ev.Player.CurrentRoom.Equals(tpRoom));
 
                     Timing.CallDelayed(3f, () => {
@@ -105,10 +105,10 @@ namespace ItemRandomizerPlugin {
             return lczRooms[index];
         }
 
-        public RoomType GetRandomHCZRoom() {
+        public RoomType GetRandomNLCZRoom() {
             Random random = new Random();
-            int index = random.Next(hczRooms.Count);
-            return hczRooms[index];
+            int index = random.Next(NlczRooms.Count);
+            return NlczRooms[index];
         }
 
         private static List<ItemType> AddAllowedItems()
@@ -143,7 +143,7 @@ namespace ItemRandomizerPlugin {
         RoomType.LczCheckpointA,
         };
 
-        private List<RoomType> hczRooms = new List<RoomType>
+        private List<RoomType> NlczRooms = new List<RoomType>
         {
         RoomType.Hcz079,
         RoomType.HczEzCheckpointA,
@@ -162,7 +162,21 @@ namespace ItemRandomizerPlugin {
         RoomType.HczServers,
         RoomType.HczTCross,
         RoomType.HczCurve,
-        RoomType.Hcz096
+        RoomType.Hcz096,
+        RoomType.EzCafeteria,
+        RoomType.EzCheckpointHallway,
+        RoomType.EzCollapsedTunnel,
+        RoomType.EzConference,
+        RoomType.EzCrossing,
+        RoomType.EzCurve,
+        RoomType.EzDownstairsPcs,
+        RoomType.EzGateA,
+        RoomType.EzGateB,
+        RoomType.EzIntercom,
+        RoomType.EzStraight,
+        RoomType.EzTCross,
+        RoomType.EzUpstairsPcs,
+        RoomType.EzVent
         };
 
         
